@@ -1,12 +1,12 @@
 ﻿# Darukaa — Environmental Intelligence System
 
-Darukaa is an evidence-backed environmental analysis pipeline designed to diagnose complex ecosystem problems, perform multi-metric causal reasoning, retrieve verified scientific evidence, and generate actionable intervention recommendations.
+This Environmental Intelligence System is an evidence-backed environmental analysis pipeline designed to diagnose complex ecosystem problems, perform multi-metric causal reasoning, retrieve verified scientific evidence, and generate actionable intervention recommendations.
 
 ---
 
 ## 🏗️ 1. Architecture Overview
 
-Darukaa operates via a 9-stage analysis pipeline:
+Environmental Intelligence System operates via a 9-stage analysis pipeline:
 
 ```
 User Query
