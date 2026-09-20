@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+numpy<3.0.0
+langchain
+langchain-groq
+langchain-openai
+python-dotenv
+qdrant-client
+langchain-qdrant
+langchain-huggingface
+sentence-transformers
+langchain-text-splitters
+fastembed
+langchain-community
