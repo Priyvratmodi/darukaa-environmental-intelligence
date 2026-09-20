@@ -1,4 +1,4 @@
-﻿import { NextRequest, NextResponse } from 'next/server';
+import { NextRequest, NextResponse } from 'next/server';
 
 const BACKEND = process.env.NEXT_PUBLIC_API_URL ?? 'http://localhost:8000';
 
@@ -6,7 +6,7 @@ export async function POST(request: NextRequest) {
   try {
     const body = await request.json();
 
-    const upstream = await fetch(${BACKEND}/analyze, {
+    const upstream = await fetch(`${BACKEND}/analyze`, {
       method: 'POST',
       headers: { 
         'Content-Type': 'application/json',
@@ -22,7 +22,7 @@ export async function POST(request: NextRequest) {
   } catch (err: unknown) {
     const message = err instanceof Error ? err.message : 'Unknown error';
     return NextResponse.json(
-      { detail: \Backend unreachable at \: \\ },
+      { detail: `Backend unreachable at ${BACKEND}: ${message}` },
       { status: 503 },
     );
   }
