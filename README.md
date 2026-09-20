@@ -1,4 +1,4 @@
----
+﻿---
 title: Darukaa Backend
 emoji: ??
 colorFrom: green
@@ -9,7 +9,7 @@ app_file: app.py
 pinned: false
 ---
 
-# Darukaa � Environmental Intelligence System
+# Darukaa — Environmental Intelligence System
 
 This Environmental Intelligence System is an evidence-backed environmental analysis pipeline designed to diagnose complex ecosystem problems, perform multi-metric causal reasoning, retrieve verified scientific evidence, and generate actionable intervention recommendations.
 
