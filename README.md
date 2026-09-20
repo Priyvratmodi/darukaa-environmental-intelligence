@@ -4,7 +4,7 @@ emoji: 🚀
 colorFrom: green
 colorTo: blue
 sdk: gradio
-sdk_version: 4.0.0
+sdk_version: 6.28.0
 app_file: app.py
 pinned: false
 ---
@@ -122,4 +122,3 @@ The repository includes a GitHub Actions CI pipeline configured in `.github/work
 
 - **Multi-Turn Handling**: If required information is missing, the API returns `status: "requires_more_info"` along with a list of `missing_metrics`. Sending a follow-up query with the same `session_id` accumulates observations and completes the analysis seamlessly.
 - **Anti-Hallucination Safeguards**: Every scientific claim must be backed by a retrieved source organization and URL. If no source exists, the system labels the claim as `[UNSUPPORTED CLAIM]` under `[Uncertainty]`.
-
